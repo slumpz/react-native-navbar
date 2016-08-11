@@ -115,6 +115,7 @@ class NavigationBar extends Component {
     leftButton: PropTypes.oneOfType([
       PropTypes.shape(ButtonShape),
       PropTypes.element,
+      PropTypes.object,
     ]),
     rightButton: PropTypes.oneOfType([
       PropTypes.shape(ButtonShape),
@@ -123,6 +124,7 @@ class NavigationBar extends Component {
     title: PropTypes.oneOfType([
       PropTypes.shape(TitleShape),
       PropTypes.element,
+      PropTypes.object,
     ]),
   };
 
