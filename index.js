@@ -120,10 +120,11 @@ class NavigationBar extends Component {
     rightButton: PropTypes.oneOfType([
       PropTypes.shape(ButtonShape),
       PropTypes.element,
+      PropTypes.object,
     ]),
     title: PropTypes.oneOfType([
       PropTypes.shape(TitleShape),
-      PropTypes.element,
+      PropTypes.element,      
       PropTypes.object,
     ]),
   };
